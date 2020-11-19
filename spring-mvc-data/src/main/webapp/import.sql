@@ -1,0 +1,3 @@
+drop table goods IF EXISTS;
+create TABLE IF NOT EXISTS goods (id bigserial, title VARCHAR(255), price int, PRIMARY KEY (id));
+insert into goods (title, price) values ('Milk', 70), ('Apple', 80), ('Juce', 50), ('Banana', 60), ('Bread', 80), ('Tea', 80), ('Candy', 60), ('Chocolate', 90), ('Coffee', 50), ('Butter', 60), ('Jam', 40), ('Cheese', 70), ('Lemon', 80), ('Coca-Cola', 40), ('Cetchup', 50), ('Potato', 70), ('Strawberry', 80), ('Watermelon', 90), ('Pineapple', 90), ('Tomato', 50);
